@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+*.egg-info/
+
+# Data and outputs
+data/
+outputs/
+*.pt
+*.npy
+*.npz
+*.csv
+*.png
+*.tif
+*.tiff
+*.sif
+
+# Logs
+*.log
+logs/
+
+# OS/editor
+.DS_Store
+.vscode/
