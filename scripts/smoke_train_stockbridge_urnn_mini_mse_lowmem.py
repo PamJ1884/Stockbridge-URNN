@@ -20,9 +20,11 @@ import torch
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 
-ROOT = Path(__file__).resolve().parent
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
+U_RNN_CODE = Path.home() / "flood/01_repositories/U-RNN/code"
+if not U_RNN_CODE.exists():
+    raise FileNotFoundError(f"Expected U-RNN code folder not found: {U_RNN_CODE}")
+if str(U_RNN_CODE) not in sys.path:
+    sys.path.insert(0, str(U_RNN_CODE))
 
 from src.lib.dataset.Dynamic2DFlood import Dynamic2DFlood, preprocess_inputs
 from src.lib.model.networks.model import ED
