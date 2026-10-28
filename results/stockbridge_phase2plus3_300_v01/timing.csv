@@ -1,0 +1,5 @@
+stage,job_id,elapsed_seconds,allocated_cpus,max_rss_kib,events,notes
+conversion,2562167,65,4,16753656,300,Manifest-driven PT to U-RNN conversion; SHA256 verification
+independent_qc,2562989,71,4,18301888,300,All canonical comparisons passed
+gpu_smoke,2562991,16,4,2385676,5,Three train and two validation events; inspect log
+full_training,2573940,35890,4,4566992,255,100 epochs with 210 train and 45 validation events on NVIDIA L40S

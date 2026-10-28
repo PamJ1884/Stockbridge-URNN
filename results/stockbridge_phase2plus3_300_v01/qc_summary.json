@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checked_events": 300,
+  "train": 210,
+  "valid": 45,
+  "test": 45,
+  "rainfall_sources": {
+    "sidecar": 300
+  },
+  "canonical_sha256_verified": true,
+  "flood_values_match": true,
+  "rainfall_values_match": true,
+  "dem_values_match": true,
+  "padding_verified": true,
+  "static_placeholders_verified": true,
+  "frozen_membership_verified": true
+}
